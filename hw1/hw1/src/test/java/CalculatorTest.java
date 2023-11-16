@@ -77,10 +77,7 @@ public class CalculatorTest {
 //        //   assert 0 == seminars.first.Calculator.Calculator.calculation(2, 6, '+');
 //        //    assertThat(seminars.first.Calculator.Calculator.calculation(2, 6, '+')).isEqualTo(0);
 //    }
-public static void main(String[] args) {
-    assertThatThrownBy(() -> Calculator.calculatingDiscount(-40.5, -60))
-            .isInstanceOf(ArithmeticException.class);
-}
+
     @BeforeAll
     public static void initAll() {
 // Здесь можно, например, подключиться к базе данных

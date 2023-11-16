@@ -46,10 +46,11 @@ public class Calculator {
         // purchaseAmount - сумма покупки
         // discountAmount - размер скидки
         if (discountAmount > purchaseAmount){
+
             throw new ArithmeticException("скидка не может быть больше суммы покупки");
 
         }
-        if ((discountAmount < 0) || (purchaseAmount < 0 )){
+        if (discountAmount < 0 || purchaseAmount < 0 ){
             throw new ArithmeticException("аргументы не могут быть отрицательными");
 
         }
